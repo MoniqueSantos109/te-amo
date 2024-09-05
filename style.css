@@ -1,0 +1,92 @@
+
+audio {
+  background-color: black;
+  color: rgb(162, 0, 255);
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+}
+
+/* Customiza os controles do player de áudio no Webkit (Chrome, Safari) */
+audio::-webkit-media-controls-panel {
+  background-color: rgb(162, 0, 255);
+  color: rgb(162, 0, 255);
+  border: none;
+}
+/* Remove bordas no Firefox */
+audio {
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Remove a borda visível no player */
+audio::-webkit-media-controls-enclosure {
+  border: none;
+}
+
+body{
+  font-family:serif;
+  background-image: url(fotos/estrelas.jpg);
+}
+
+img{
+  border-radius: 10px; 
+  width: 500px;
+  height: 300px;
+}
+.imagens{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.imagens2{
+  display: flex;
+  justify-content: space-between;
+  
+}
+h3{
+  font-size: 40px;
+  color: white;
+  text-shadow: 3px 3px 6px rgb(162, 0, 255);
+}
+.um:hover{
+  transition: 0.5s;
+ content: url('fotos/teamo.png');
+  box-shadow: rgba(88, 0, 129, 0.658) 5px 10px 20px;
+}
+.dois:hover{
+  transition: 0.5s;
+ content: url('fotos/1.png');
+  box-shadow: rgba(88, 0, 129, 0.658) 5px 10px 20px;
+}
+.tres:hover{
+  transition: 0.5s;
+ content: url('fotos/2.png');
+  box-shadow: rgba(88, 0, 129, 0.658) 5px 10px 20px;
+}
+.quatro:hover{
+  transition: 0.5s;
+ content: url('fotos/3.png');
+  box-shadow: rgba(88, 0, 129, 0.658) 5px 10px 20px;
+}
+.cinco:hover{
+  transition: 0.5s;
+ content: url('fotos/4.png');
+  box-shadow: rgba(88, 0, 129, 0.658) 5px 10px 20px;
+}
+.seis:hover{
+  transition: 0.5s;
+ content: url('fotos/5.png');
+  box-shadow: rgba(88, 0, 129, 0.658) 5px 10px 20px;
+}
+.sete:hover{
+  transition: 0.5s;
+ content: url('fotos/6.png');
+  box-shadow: rgba(88, 0, 129, 0.658) 5px 10px 20px;
+}
+h5{
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 3px 3px 6px rgba(162, 0, 255, 0.849);
+}
